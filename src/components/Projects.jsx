@@ -36,6 +36,13 @@ const projects = [
     img: "/noor.jpeg",
     link:"https://play.google.com/store/apps/details?id=com.noorconnect"
   },
+  {
+    title: "E-commerce ",
+    tags: ["Laravel & Mysql & React.js"],
+    description: "A modern and responsive e-commerce web application designed to provide a smooth and user-friendly online shopping experience.",
+    img: "/full.png",
+    link:"https://frontend-elite-commerce.vercel.app/"
+  },
  
 ];
 
