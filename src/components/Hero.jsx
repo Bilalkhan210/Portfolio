@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="flex flex-wrap gap-4">
             <a href="#projects" className="btn-primary px-8 py-4 text-base">View My Work</a>
             <a
-              href="/BilalKhan.pdf"
+              href="/Bilalkhan.pdf"
               download="Bilal_Khan_CV.pdf"
               className="border border-line hover:border-textMain text-textMain px-8 py-4 rounded-lg text-base font-semibold transition-all"
             >
