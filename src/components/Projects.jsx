@@ -30,10 +30,10 @@ const projects = [
     link:"https://e-commerce-kohl-rho.vercel.app/"
   },
   {
-    title: "App",
-    tags: ["Laravel & Mysql"],
+    title: "NoorConnect App",
+    tags: ["Laravel & Mysql & React-Native"],
     description: "Developed secure RESTful APIs for the NoorConnect application using Laravel, ensuring efficient data management and seamless integration.",
-    img: "/noor.jpeg",
+    img: "/noorc.webp",
     link:"https://play.google.com/store/apps/details?id=com.noorconnect"
   },
   {
@@ -42,6 +42,27 @@ const projects = [
     description: "A modern and responsive e-commerce web application designed to provide a smooth and user-friendly online shopping experience.",
     img: "/full.png",
     link:"https://frontend-elite-commerce.vercel.app/"
+  },
+  {
+    title: "E-commerce ",
+    tags: [" React.js"],
+    description: "LuxeCart is a modern React.js e-commerce website with responsive design..",
+    img: "/luxe.png",
+    link:"https://luxe-cart-e-wjxp.vercel.app/"
+  },
+  {
+    title: "Business ",
+    tags: ["React.js"],
+    description: "Forma is a modern, responsive web application with a clean, user-friendly interface.",
+    img: "/forma.png",
+    link:"https://forma-dun-seven.vercel.app/"
+  },
+  {
+    title: "NoorTasbih App",
+    tags: ["React-Native"],
+    description: "Noor Tasbih is a modern Islamic app for digital Tasbih, Dhikr goals, favorites, and daily Adhkar.",
+    img: "/noor.png",
+    link:"https://play.google.com/store/apps/details?id=com.noortasbih&hl=en"
   },
  
 ];

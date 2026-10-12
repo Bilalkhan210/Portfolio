@@ -7,6 +7,11 @@ const services = [
     description: "Building responsive, high-performance websites using modern frameworks like React, Next.js, and Node.js."
   },
   {
+    icon: "fa-mobile-screen-button",
+    title: "React Native Development",
+    description: "Creating cross-platform mobile applications for iOS and Android with native performance and a seamless user experience."
+  },
+  {
     icon: "fa-database",
     title: "Backend Development",
     description: "Developing robust and scalable server-side architectures, APIs, and database management systems using PHP, Laravel, and Node.js."
@@ -24,7 +29,7 @@ const Services = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div
               key={index}
