@@ -27,18 +27,21 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
           <p className="text-sm md:text-base font-semibold tracking-[0.2em] uppercase text-mute">Hello, I'm</p>
-          <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold font-display leading-none tracking-tighter text-textMain">
+          <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold font-display leading-none tracking-tighter text-textMain">
             Bilal <br />
             <span className="hero-title-outline">Khan</span>
           </h1>
-          <div className="flex items-center space-x-4 text-xl md:text-2xl font-medium">
-            <span className="text-mute">Freelancer &amp;</span>
-            <div className="overflow-hidden relative h-[1.2em] w-64">
+
+          {/* Responsive Text Container */}
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-lg sm:text-xl md:text-2xl font-medium">
+            <span className="text-mute whitespace-nowrap">Freelancer &amp;</span>
+            <div className="overflow-hidden relative h-[1.4em] min-w-[200px] sm:min-w-[240px] md:w-72 flex items-center">
               <span className={`absolute top-0 left-0 whitespace-nowrap text-textMain font-bold ${animationClass}`}>
                 {words[idx]}
               </span>
             </div>
           </div>
+
           <p className="text-lg md:text-xl max-w-lg text-mute leading-relaxed">
             I build modern web apps, APIs, and digital solutions. Turning ideas into powerful products.
           </p>
