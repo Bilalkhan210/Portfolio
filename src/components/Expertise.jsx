@@ -7,11 +7,11 @@ const expertiseData = [
   { skill: "JavaScript", percentage: 92 },
   { skill: "Node.js", percentage: 80 },
   { skill: "Express.js", percentage: 78 },
+  { skill: "React-Native", percentage: 70 },
+  { skill: "WordPress", percentage: 90 },
   { skill: "MongoDB", percentage: 75 },
   { skill: "MySQL", percentage: 85 },
   { skill: "Vue.js", percentage: 40 },
-  { skill: "React-Native", percentage: 70 },
-  { skill: "WordPress", percentage: 90 }
 ];
 
 const Expertise = () => {
